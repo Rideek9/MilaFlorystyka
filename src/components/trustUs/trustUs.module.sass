@@ -1,0 +1,39 @@
+@import "../../../styles/variables"
+@import "../../../styles/mixin"
+
+.wrapper
+  @include marginSection
+  grid-column: content-start / content-end
+
+.contener
+  width: 80%
+  margin: 0 auto
+  display: flex
+  justify-content: space-evenly
+  padding: 3rem 0
+  flex-wrap: wrap
+
+.main
+  width: 8.5rem
+  height: 8.5rem
+  background-color: #fff
+  border-radius: 50%
+  border: solid 5px $color-primary-dark
+  overflow: hidden
+  display: flex
+  justify-content: center
+  align-items: center
+  transition: all .3s
+  margin: 1rem 2.5rem
+
+
+.logo
+  width: 80%
+  height: 80%
+  object-fit: contain
+  object-position: center
+  transition: all .3s
+
+
+
+

@@ -5,6 +5,7 @@ import Move from "../components/move/move";
 import ChoseUs from "@/components/choseUs/choseUs";
 import Compositions from "@/components/compositions/compositions";
 import PickAndPay from "@/components/picupAndPay/PickAndPay";
+import TrustUs from "@/components/trustUs/trustUs";
 
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
             <ChoseUs/>
             <Compositions/>
             <PickAndPay/>
+            <TrustUs/>
         </div>
 
 
