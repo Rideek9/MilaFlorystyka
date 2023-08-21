@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('icomoon.eot?7zxhz2');
+    src: url('icomoon.eot?7zxhz2#iefix') format('embedded-opentype'),
+    url('icomoon.ttf?7zxhz2') format('truetype'),
+    url('icomoon.woff?7zxhz2') format('woff'),
+    url('icomoon.svg?7zxhz2#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-infinite:before {
+    content: "\e901";
+}
+
+.icon-truck:before {
+    content: "\e902";
+}
+
+.icon-blik:before {
+    content: "\e903";
+}
+
+.icon-mila-florystyka:before {
+    content: "\e900";
+}
+
+.icon-check:before {
+    content: "\e904";
+}
+
+.icon-compass:before {
+    content: "\e905";
+}
+
+.icon-old-phone:before {
+    content: "\e906";
+}
+
+.icon-envelope:before {
+    content: "\f003";
+}
+
+.icon-note:before {
+    content: "\f044";
+}
+
+.icon-money:before {
+    content: "\f0d6";
+}
+
+.icon-bank:before {
+    content: "\f19c";
+}
+
+.icon-institution:before {
+    content: "\f19c";
+}
+
+.icon-university:before {
+    content: "\f19c";
+}
+
+.icon-street-view:before {
+    content: "\f21d";
+}
+
+.icon-map:before {
+    content: "\f278";
+}
+
+.icon-handshake:before {
+    content: "\f2b5";
+}

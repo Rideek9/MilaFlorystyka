@@ -1,0 +1,17 @@
+@import "../../styles/variables"
+
+
+.contener
+  max-width: 1500px
+  margin: 0 auto
+  display: grid
+  grid-template-columns: [mgr-left-start] 4rem [mgr-left-end content-start] 1fr [content-end mgr-right-start] 4rem [mgr-right-ent]
+  grid-template-rows: [header-start] max(45rem) [header-end] repeat(8, min-content)
+  background-color: #fff
+  background-image: linear-gradient(rgba($text-color-light, .9), rgba($text-color-light, .9)), url("../../public/assets/img/background-main.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-attachment: fixed
+  background-position: center
+
+

@@ -1,0 +1,49 @@
+@import "variables"
+
+
+.heading_1
+  font-size: 4rem
+  color: $color-primary-dark
+
+.heading_2
+  font-size: 3.5rem
+
+.heading_3
+  font-size: 2.5rem
+
+.heading_4
+  font-size: 1.3rem
+  color: $text-color-veryDark
+
+
+.btn
+  font-family: $primary-font
+  font-size: 1.2rem
+  padding: .4rem 2rem
+  border-radius: 3rem
+  text-decoration: none
+  text-transform: lowercase
+  color: $text-color-primary
+  letter-spacing: 2px
+  background-color: $color-primary-dark
+  align-self: flex-start
+  justify-self: center
+  transition: all .2s
+
+  &:hover,
+  &:active
+    background-color: darken($color-primary-dark, 8%)
+    animation: hoverBTN 1s infinite
+
+
+@keyframes hoverBTN
+  0%
+    transform: scale(0.95)
+    box-shadow: 0 5px 2rem $text-color-dark
+  50%
+    transform: scale(1.05)
+    box-shadow: 0 5px 2rem $text-color-dark
+  100%
+    transform: scale(0.95)
+    box-shadow: 0 5px 2rem $text-color-dark
+

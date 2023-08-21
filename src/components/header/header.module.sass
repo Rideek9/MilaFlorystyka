@@ -1,0 +1,66 @@
+@import "../../../styles/variables"
+
+$opacityBGC: 0.5
+
+.header
+  width: 100%
+  grid-row: header-start / header-end
+  grid-column: mgr-left-start / mgr-right-end
+  background-image: linear-gradient(rgba($color-primary-dark, $opacityBGC), rgba($color-primary-dark, $opacityBGC)), url("../../../public/assets/img/headerImg.jpeg")
+  background-size: cover
+  background-position: center top
+  clip-path: polygon(0 0, 0 100%, 100% 80%, 100% 0)
+
+  display: grid
+  grid-template-rows: min-content min-content
+
+
+  &__navigation
+    display: grid
+    grid-template-columns: 1fr 1fr min-content
+
+
+  &__menu
+    grid-column: 2 / 3
+    align-self: center
+
+
+  &__item
+    text-decoration: none
+    font-size: 1.6rem
+    font-family: $second-font
+    margin: 0 1.2rem
+    color: $text-color-veryDark
+    font-weight: 100
+    transition: all .2s
+
+    &:hover
+      color: lighten($text-color-veryDark, 20%)
+
+
+  &__logo
+    height: 3.5rem
+    fill: $text-color-veryDark
+    grid-column: 3 / 4
+    align-self: center
+    margin: 2rem 4rem 2rem 0
+
+  &__element
+    display: grid
+    max-width: 40%
+    justify-self: end
+    margin-right: 8rem
+    margin-top: 3rem
+
+
+  &__motto
+    font-family: $second-font
+    max-width: 35vw
+    text-align: center
+    color: $text-color-veryDark
+    margin-bottom: 1.2rem
+
+
+
+
+

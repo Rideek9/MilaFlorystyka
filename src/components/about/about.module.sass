@@ -1,0 +1,36 @@
+@import "../../../styles/variables"
+@import "../../../styles/mixin"
+
+.icon
+  width: 3.2rem
+  height: 3.2rem
+  color: $color-primary-dark
+
+
+.about
+  grid-column: content-start / content-end
+  display: grid
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr))
+  grid-gap: 3rem
+  @include marginSection
+  margin-right: 5rem
+  margin-left: 5rem
+  justify-items: center
+
+  &__item
+    display: flex
+    flex-direction: column
+    justify-items: center
+    align-items: center
+
+  &__header
+    display: flex
+    justify-content: flex-start
+    margin: 1.2rem 0 1.1rem 0
+
+  &__text
+    font-weight: 200
+    text-align: center
+    @include colorText
+
+

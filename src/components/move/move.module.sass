@@ -1,0 +1,55 @@
+@import "../../../styles/variables"
+@import "../../../styles/mixin"
+
+
+.moveMain
+  grid-column: mgr-left-start / mgr-right-end
+  @include marginSection
+  width: 100%
+  height: 40rem
+  position: relative
+  background-image: linear-gradient(rgba($text-color-veryDark, .4), rgba($text-color-veryDark, .4))
+
+
+.background
+  position: absolute
+  display: block
+  width: 100%
+  height: 100%
+  background-color: rgba($text-color-veryDark, .8)
+  z-index: 1
+
+.video
+  position: absolute
+  width: 100%
+  height: 100%
+  object-fit: cover
+  z-index: 0
+  top: 0
+  left: 0
+
+
+.sectionText
+  width: 35%
+  display: grid
+  justify-content: center
+  grid-row-gap: 2rem
+  position: absolute
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%)
+  z-index: 2
+
+  &__tesxt
+    font-family: $second-font
+    text-align: center
+    color: $text-color-light
+
+    font-size: 3.5rem
+
+  &__btn
+
+
+
+
+
