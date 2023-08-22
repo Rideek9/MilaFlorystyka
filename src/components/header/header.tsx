@@ -21,6 +21,7 @@ export default function Header() {
                     <Link className={styles.header__item} href="#">kontakt</Link>
                 </ul>
                 <LogoMila className={styles.header__logo}/>
+                
             </div>
             <section className={styles.header__element}>
                 <h1 className={`${template.heading_2} ${styles.header__motto}`}>Kompozycje,
